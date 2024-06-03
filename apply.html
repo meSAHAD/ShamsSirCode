@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Online</title>
+    <link rel="stylesheet" href="edge.css">
+</head>
+<body>
+    <!-- top section start -->
+    <section id="top-section">
+        <div class="top-div">
+            <h1 id="top-h1">EDGE: BU-CSE Digital Skills Training</h1>
+        </div>
+        <div>
+            <nav class="top-nav">
+                <ul>
+                    <li ><a href="index.html">Announcement</a></li>
+                    <li><a href="courses.html">Offered Courses</a></li>
+                    <li id="nav-active"><a href="apply.html">Apply Online</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <!-- top section end -->
+
+    <!-- Apply section  -->
+    <section id="apply-section">
+       <div id="apply-div">
+        <h2 id="applyh2">Course Application Form</h2>
+        <form id="apply-form">
+            <label id="apply-lebel" for="name">Applicant Name:</label>
+            <input id="apply-input" type="text" id="name" name="name" required><br><br>
+        
+            <label id="apply-lebel" for="phone">Phone Number:</label><br>
+            <input id="apply-input" type="tel" id="phone" name="phone" required><br><br>
+        
+            <label id="apply-lebel" for="email">Email:</label><br>
+            <input id="apply-input" type="email" id="email" name="email" required><br><br>
+        
+            <label id="apply-lebel" for="gender">Gender:</label><br>
+            <input  type="radio" id="male" name="gender" value="male" required>
+            <label id="apply-lebel" for="male">Male</label>
+            <input  type="radio" id="female" name="gender" value="female" required>
+            <label id="apply-lebel" for="female">Female</label><br><br>
+        
+        
+            <labe id="apply-lebel" l for="dob">Date of Birth:</label><br>
+                <input id="apply-input" type="date" id="dob" name="dob" required><br><br>
+        
+                <label id="apply-lebel" for="institute">Institute:</label><br>
+                <input id="apply-input" type="text" id="institute" name="institute" required><br><br>
+        
+                <label id="apply-lebel" for="program">Choose Program:</label><br>
+                <select id="apply-input" id="program" name="program" required>
+                    <option value="" disabled selected>Select your Course</option>
+                    <option value="program1">Computer Fundamentals</option>
+                    <option value="program2">Basic Networking</option>
+                    <option value="program3">Basic Web Devlopment</option>
+                    <option value="program4">Basic Programming With Python</option>
+                    <option value="program5">Database Maangement</option>
+                    <option value="program6">Mobile Application Devlopment</option>
+                </select><br><br>
+        
+                <label id="apply-lebel" for="reason">Why You want to attend this course:</label><br>
+                <textarea id="apply-input" id="reason" name="reason" maxlength="200" required></textarea><br><br>
+        
+                <input id="apply-input" type="submit" value="Submit">
+        </form>
+        </section>
+       </div>
+
+</body>
+</html>

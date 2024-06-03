@@ -1,0 +1,128 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#top-section {
+    margin: 0 0;
+    background-color: #007BFF;
+}
+
+.top-div {
+    text-align: center;
+}
+
+#top-h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.top-nav a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.top-nav a:hover {
+    background-color: #0056b3;
+}
+
+#nav-active a {
+    background-color: #00ff4c;
+    color: #000000;
+}
+
+
+/* announcement section  */
+#ann-section{
+    font-size: 1.5rem;
+    padding: 5px;
+    text-align: justify;
+}
+#ann-section ul{
+    list-style: square;
+}
+
+/* table section  */
+#table-section {
+    margin: 20px 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+#table-section h1 {
+    text-align: center;
+    color: #333333;
+    font-size: 2em;
+}
+
+#course-table {
+    width: 100%;
+}
+
+#course-table th,
+#course-table td {
+    padding: 12px 15px;
+}
+
+#course-table th {
+    background-color: #007BFF;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#course-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* apply section  */
+#apply-section {
+    background-color:#00ff4c;
+    display: grid;
+    place-items: center;
+}
+
+#applyh2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#apply-div {
+    background-color: #3700ff8f;
+    padding: 10px 170px;
+    border-radius: 8px;
+    box-shadow:2px 2px 2px #000000;
+}
+
+#apply-lebel {
+    font-weight: bold;
+}
+
+#apply-input {
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
