@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* profile stARTS HERE */
+.profile {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    text-align: center;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: solid 1px #0b0e0b;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.desg {
+    color: #333333;
+}
+
+/* PROFILE ENDS HERE  */
+
+/* NAVBAR STARTS HERE  */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.navbar a {
+    color: #ffffff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #555;
+    color: #f8f8f8;
+}
+
+
+/* NAVBAR ENDS HERE  */
+
+/* about me skills experience achievement contact  */
+.section {
+    margin: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#border_blk{
+    background-color: #00000008;
+        padding: 10px;
+        margin-bottom: 5px;
+        border-left: 5px solid #000000;
+}
+
+/* table section  */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+#tb_th{
+    background-color: #00000008;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+
+/* CONTACT SECTION EXTRA STARTS HERE  */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+}
+
+button {
+    background-color: #28a745;
+    color: #f8f8f8;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666666;
+}
